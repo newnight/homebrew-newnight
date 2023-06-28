@@ -19,7 +19,7 @@ class Phpactor < Formula
   def install
     # system "composer install"
     bin.install "phpactor.phar" => "phpactor"
-    resource("phpactor.phar").stage { bin.install "phpactor.phar" => "phpactor" }
+    # resource("phpactor.phar").stage { bin.install "phpactor.phar" => "phpactor" }
   end
 
   def caveats
