@@ -1,8 +1,7 @@
 class Phpactor < Formula
   desc "Intelligent completion and refactoring tool for PHP"
   homepage "https://phpactor.readthedocs.io/"
-  url "https://github.com/phpactor/phpactor/releases/download/v#{version}/phpactor.phar",
-  verified: "github.com/phpactor/phpactor/"
+  url "https://github.com/phpactor/phpactor/releases/download/2023.06.17-2/phpactor.phar"
   version "2023.06.17-2"
   sha256 "e3257c68694e569bbac34b6d0a7871225785e9b8d3075067291a18eb7b37fc5c"
   license "MIT"
